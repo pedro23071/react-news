@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from './components/Header';
-import listaNoticias  from './components/ListaNoticias';
+import ListaNoticias  from './components/ListaNoticias';
 
 class App extends React.Component{
 
@@ -32,7 +32,7 @@ class App extends React.Component{
         />
 
         <div className="container white contenedor-noticias">
-            <listaNoticias 
+            <ListaNoticias 
               noticias={this.state.noticias}
             />
         </div>
